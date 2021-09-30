@@ -1,0 +1,90 @@
+lightning-button.button {
+    --sds-c-button-brand-color-background: white;
+    --sds-c-button-brand-text-color: rgba(1, 118, 211, 1);
+    --sds-c-button-brand-text-color-hover: rgba(53, 93, 150, 1);
+    --sds-c-button-brand-color-border: rgb(221, 219, 218) !important;
+    --sds-c-button-brand-color-border-hover: rgb(221, 219, 218);
+    --sds-c-button-brand-color-background-hover: rgb(250, 250, 249);
+}
+lightning-button.button2 {
+    --sds-c-button-brand-color-background: white;
+    --sds-c-button-brand-text-color: rgba(1, 118, 211, 1);
+    --sds-c-button-brand-text-color-hover: rgba(53, 93, 150, 1);
+    --sds-c-button-brand-color-border: rgb(221, 219, 218) !important;
+    --sds-c-button-brand-color-border-hover: rgb(221, 219, 218);
+    --sds-c-button-brand-color-background-hover: rgb(250, 250, 249);
+}
+lightning-button.button3{
+    --sds-c-button-destructive-color-background: white !important;
+    --sds-c-button-destructive-text-color: rgba(1, 118, 211, 1) !important;
+    --sds-c-button-destructive-text-color-hover: rgba(53, 93, 150, 1) !important;
+    --sds-c-button-destructive-color-border: rgb(221, 219, 218) !important;
+    --sds-c-button-destructive-color-border-hover: rgb(221, 219, 218) !important;
+    --sds-c-button-destructive-color-background-hover: rgb(250, 250, 249) !important;
+    margin-left: 10px !important;
+}
+lightning-button.button4{
+    --sds-c-button-destructive-color-background: white !important;
+    --sds-c-button-destructive-text-color: rgba(1, 118, 211, 1) !important;
+    --sds-c-button-destructive-text-color-hover: rgba(53, 93, 150, 1) !important;
+    --sds-c-button-destructive-color-border: rgb(221, 219, 218) !important;
+    --sds-c-button-destructive-color-border-hover: rgb(221, 219, 218) !important;
+    --sds-c-button-destructive-color-background-hover: rgb(250, 250, 249) !important;
+    margin-left: 10px !important;
+}
+lightning-button.button6{
+    --sds-c-button-destructive-color-background: white !important;
+    --sds-c-button-destructive-text-color: rgba(1, 118, 211, 1) !important;
+    --sds-c-button-destructive-text-color-hover: rgba(53, 93, 150, 1) !important;
+    --sds-c-button-destructive-color-border: rgb(221, 219, 218) !important;
+    --sds-c-button-destructive-color-border-hover: rgb(221, 219, 218) !important;
+    --sds-c-button-destructive-color-background-hover: rgb(250, 250, 249) !important;
+    --sds-c-button-destructive-color-background-active: rgba(53, 93, 150, 1) !important;
+    --sds-c-button-destructive-color-border-active: rgb(221, 219, 218) !important;
+    margin-left: 10px !important;
+}
+.slds-size_1-of-12, .slds-size--1-of-12 {
+    padding-top: 24px;
+    padding-left: 15px;
+}
+.slds-size_2-of-12, .slds-size--2-of-12 {
+    padding-top: 24px;
+    padding-left: 15px;
+}
+.slds-backdrop{
+    background: rgb(0 0 0 / 6%); 
+    z-index: 1;
+}
+.slds-m-around_medium > .slds-backdrop{
+    background: rgb(0 0 0 / 40%); 
+    z-index: 1;
+}
+.slds-modal__footer{
+    box-shadow: none;
+}
+.button5{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #fff;
+    border-color: #dddbda;
+}
+.button5:hover{
+    background-color:rgb(250, 250, 249);
+    border-color: rgb(221, 219, 218);
+}
+.button5:focus{
+    outline: 0;
+    box-shadow: var(--sds-c-button-shadow-focus, var(--lwc-shadowButtonFocus,0 0 3px #0176d3));
+}
+.button5:active{
+    background-color:rgb(1, 68, 134);
+    border-color:rgb(1, 68, 134);
+    color:rgb(255, 255, 255);
+}
+.slds-button__icon{
+    color: #0176d3; 
+}
+.button5:active > .slds-button__icon{
+    color:rgb(255, 255, 255);
+}
+
